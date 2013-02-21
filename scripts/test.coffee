@@ -6,4 +6,4 @@
 
 module.exports = (robot) ->
   robot.respond /hi|hello/i, (msg) ->
-    msg.send "Howdy partner"
+    msg.send "Hello sir/madam"
