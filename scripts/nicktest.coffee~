@@ -1,0 +1,15 @@
+# Description:
+#   A way to interact with the Google Images API.
+#
+# Commands:
+#   hubot hi - Says hey.
+#   hubot hungry - Food Time!
+
+module.exports = (robot) ->
+  robot.respond /hi|hello/i, (msg) ->
+    msg.send "Hey!"
+
+
+module.exports = (robot) ->
+  robot.hear /hungry|food|\s+eat\s+|lunch|dinner|cake/i, (msg) ->
+    msg.send "Did somebody say food? (chompy)(cake)"
