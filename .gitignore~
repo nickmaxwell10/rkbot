@@ -19,3 +19,6 @@ node_modules
 hubot.sh
 hubot.sh~
 
+err.log
+out.log
+
