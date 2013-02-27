@@ -4,6 +4,7 @@
 # Commands:
 #   hubot help - Displays all of the help commands that Hubot knows about.
 #   hubot help <query> - Displays all help commands that match <query>.
+#   hubot repository - Displays the url of the github repository for the rainking bot.
 #
 # URLS:
 #   /hubot/help
