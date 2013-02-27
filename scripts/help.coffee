@@ -75,3 +75,6 @@ module.exports = (robot) ->
 
     res.setHeader 'content-type', 'text/html'
     res.end helpContents robot.name, emit
+
+  robot.respond /repository/i, (msg) ->
+    msg.send "https://github.com/nickmaxwell10/rkbot"
