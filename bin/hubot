@@ -3,7 +3,5 @@
 npm install
 export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
 
-#exec node_modules/.bin/hubot "$@"
-
-forever start -a -l forever.log -o out.log -e err.log -c coffee node_modules/.bin/hubot -a hipchat
+exec node_modules/.bin/hubot "$@"
 
